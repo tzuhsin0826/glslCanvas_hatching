@@ -7,6 +7,7 @@ precision mediump float;
 
 uniform vec2 u_resolution;
 uniform float u_time;
+uniform sampler2D u_tex0; 
 
 // Cellular noise ("Worley noise") in 2D in GLSL.
 // Copyright (c) Stefan Gustavson 2011-04-19. All rights reserved.
